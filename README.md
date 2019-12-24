@@ -2,7 +2,7 @@
 
 
 
-This project allow to run multiple @Cooja file using a @docker image, here is the following steps to prepare the the appropriate environnement to execute this program :+1:  : 
+This project allow to run multiple **Cooja** file using a **docker image**, here is the following steps to prepare the the appropriate environnement to execute this program :+1:  : 
 
 ## Installation
 
