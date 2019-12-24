@@ -21,7 +21,7 @@ def getpath():
    text = choosen.cget("text") + file_path + "\n"
    choosen.configure(text=text)
    print(file_path)
-B = tk.Button(ButtonFrame, text ="Choisissez les fichiers csc",font=25, command = getpath)
+B = tk.Button(ButtonFrame, text ="Choisir les fichiers csc",font=25, command = getpath)
 
 
 def runDockerGUI():
@@ -36,14 +36,13 @@ def runMuptipleCSC():
    	 print(command)
    	 p = os.system("gnome-terminal -e 'bash -c \" "+command+" ; exec bash\"'")
    a = choosen.cget("text")
-   # a c'est tout les fichiers selectionnés dans une seul string
+   # Here all file selected are represented in one string variable
    last = []
    p1 = Pool()
    for i in a.splitlines():
-   	   # i c'est une line c a dire un chemain un fichier a executé
+   	   # i is a path of file to run 
    	   print(i.split("/")[-1])
    	   last.append(i.split("/")[-1])
-   	   # -1 veut dire le dernier element 
    for i in range(len(last)):
 	   p1=Process(target=runcsc,args=(last[i],))
 	   p1.start()
