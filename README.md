@@ -17,6 +17,8 @@ After runing the script, a small graphical interface will appear, it will allow 
 where you can run the choosen file after that.
 Also a graphical interface of cooja is available by clicking on GUI option.:boom:
 
-This project is licensed under the [MIT license](LICENSE) :exclamation:
+## Licence copyright 
+
+This project is licensed under the [MIT license](LICENSE) which means any **total** or **partial** integration of this program in any educational or comercial or other fiels **have to reference the author of the main source**
 
  
