@@ -19,6 +19,6 @@ Also a graphical interface of cooja is available by clicking on GUI option.:boom
 
 ## Licence copyright 
 
-This project is licensed under the [MIT license](LICENSE) which means any **total** or **partial** integration of this program in any educational or comercial or other fiels **have to reference the author of the main source**
+This project is licensed under the [MIT license](LICENSE) which means any total or partial integration of this program in any educational or comercial or other fiels have to reference the author of the main source
 
  
