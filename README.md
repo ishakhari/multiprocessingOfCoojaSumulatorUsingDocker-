@@ -1,4 +1,4 @@
-# multiprocessing of Cooja Sumulator using Docker
+# multiprocessing of Cooja Simulator using Docker
 
 
 
